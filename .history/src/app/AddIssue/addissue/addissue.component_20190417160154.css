@@ -1,0 +1,18 @@
+#inlineWord{
+  border: 1px solid grey;
+  width: 400px;
+  height: 200px;
+}
+
+#inlineWord h5{
+  text-align: left;
+  margin-top: -10px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+#inlineWord h1 span{
+  background-color: white;
+}
+

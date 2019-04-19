@@ -1,0 +1,21 @@
+#inlineWord{
+  border: 1px solid grey;
+  width: 400px;
+  height: 100px;
+}
+
+#inlineWord h3{
+  text-align: left;
+  margin-top: -10px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+#inlineWord h3 span{
+  background-color: white;
+}
+
+div{
+  margin-left: 10px
+}
