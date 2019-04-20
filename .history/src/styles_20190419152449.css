@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #337ab7 ;
+  /* border-top-color: #337ab7; */
+}
+.nav-tabs.nav-justified>.active>a {
+  border-top-color: #337ab7 !important;
+  border-top-width: thick !important;
+}
+
+a {
+  color: #555 !important;
+}
+
+
+.dropdown-menu {
+  width: 100% !important;
+}

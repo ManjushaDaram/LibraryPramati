@@ -1,0 +1,95 @@
+
+<div class="page">
+<div class="form">
+<form>
+  <div class="col-md-3 form-group text-right">
+      <label  style="color:#337ab7"
+      ><span style="color: red">*</span>Date:</label>
+  </div>
+  <div class="col-md-9 form-group">
+    <div class="col-md-6 form-group">
+        <label id="fontweight">Date</label>
+        <input class="form-control" placeholder="yyyy-mm-dd"
+                      name="dp" [(ngModel)]="model" [firstDayOfWeek]="7" ngbDatepicker #d="ngbDatepicker"  (click)="d.toggle()">
+    </div>
+    <div class="col-md-4 form-group">
+        <label id="fontweight">Time</label>
+        <input type="time" class="form-control" />
+    </div>
+
+  </div>
+  <!-- <hr class="col-md-12"> -->
+
+  <div class="col-md-3 form-group text-right">
+      <label  style="color:#337ab7"
+      ><span style="color: red">*</span>Severity:</label>
+  </div>
+  <div class="col-md-9 form-group">
+      <select class="form-control" id="widthchamnge">
+          <option>3-Low</option>
+      </select>
+  </div>
+
+  <div class="col-md-3 form-group text-right">
+      <label  style="color:#337ab7">Call Back:</label>
+  </div>
+  <div class="col-md-9 form-group">
+
+        <input type="text" id="widthchamnge" class="form-control">
+        <label id="fontweight" style="font-size: 13px;margin-top: 3px;margin-left: 2.5%">Date reporter will checkin-in to receive resolution or instruction.</label>
+  </div>
+
+
+  <div  class="col-md-3 form-group text-right">
+  <label  style="color:#337ab7">Awareness:</label>
+  </div>
+    <div class="col-md-9 form-group">
+            <select class="form-control" id="widthchamnge">
+                <option>-- Select --</option>
+            </select>
+            <label id="fontweight" style="font-size: 13px;margin-top: 3px;margin-left: 2.5%">How reporter discussed toll-free number or reporting process.</label>
+    </div>
+
+    <div class="col-md-3 form-group text-right panel-heading collapsed" data-toggle="collapse" data-target="#bar">
+        <label  style="color:#337ab7">
+            <i class="fa fa-fw fa-chevron-down"></i>
+          <i class="fa fa-fw fa-chevron-right"></i>Issue Location:
+        </label>
+    </div>
+    <div class="col-md-9 form-group">
+      <div class="col-md-8">
+        <input type="text" value="5103 - Green Rehabilitation Center" class="form-control">
+      </div>
+      <div class="col-md-3 form-group">
+        <button style="border-radius: 5px;min-width: 80px;margin-top: 4px;background-color: whitesmoke"><i class="fa fa-search" style="color: darkcyan" ></i> Look up</button>
+      </div>
+    </div>
+
+    <!-- <div class="col-md-3 form-group text-right">
+        <label  style="color:#337ab7">location details:</label>
+    </div> -->
+    <div class="col-md-9  form-group">
+        <div class="collapse col-md-9 form-group" id="bar">
+           <div class="col-md-6 form-group">
+              <label id="fontweight" >Street address:</label>
+           </div>
+           <div class="col-md-9 form-group">
+            <textarea id="textarea"></textarea>
+           </div>
+           <div class="col-md-9">
+
+           </div>
+
+          </div>
+    </div>
+
+
+
+
+</form>
+</div>
+</div>
+
+
+
+

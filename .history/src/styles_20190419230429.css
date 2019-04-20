@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #337ab7 ;
+  /* border-top-color: #337ab7; */
+}
+.nav-tabs.nav-justified>.active>a {
+  border-top-color: #337ab7 !important;
+  border-top-width: thick !important;
+}
+
+a {
+  color: #555 !important;
+}
+
+
+.dropdown-menu {
+  /* width: 100% !important; */
+  width: 82% !important;
+}
+.ngb-dp-day, .ngb-dp-week-number, .ngb-dp-weekday{
+      width: 2.75rem !important;
+    }
+
+    /* .ngb-datepicker-navigation-select>.custom-select {
+
+      font-size: 0rem !important;
+
+  } */
+.custom-select{
+  font-size: 1.5rem !important;
+  border: none !important;
+  -webkit-appearance: none !important;
+  /* -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: ''; */
+  }
+  .custom-select:focus {
+    outline: none;
+    }
+  .ngb-dp-months
+  {
+    margin-top: 20px !important;
+  }
+

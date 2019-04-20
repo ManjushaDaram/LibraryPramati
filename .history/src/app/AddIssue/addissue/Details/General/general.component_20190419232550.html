@@ -1,0 +1,63 @@
+
+<div class="page">
+<div class="form">
+<form>
+  <div class="col-md-3 form-group">
+      <label  style="color:#337ab7"
+      ><span style="color: red">*</span>Date:</label>
+  </div>
+  <div class="col-md-9 form-group">
+    <div class="col-md-6 form-group">
+        <label>Date</label>
+        <input class="form-control" placeholder="yyyy-mm-dd"
+                      name="dp" [(ngModel)]="model" [firstDayOfWeek]="7" ngbDatepicker #d="ngbDatepicker"  (click)="d.toggle()">
+    </div>
+    <div class="col-md-4 form-group">
+        <label>Time</label>
+        <input type="time" class="form-control" />
+    </div>
+
+  </div>
+
+  <div class="col-md-3 form-group">
+      <label  style="color:#337ab7"
+      ><span style="color: red">*</span>Severity:</label>
+  </div>
+  <div class="col-md-9 form-group">
+  <div class="col-md-6">
+      <select class="form-control">
+          <option>small</option>
+          <option>medium</option>
+          <option>large</option>
+      </select>
+  </div>
+  </div>
+
+  <div class="col-md-3 form-group">
+      <label  style="color:#337ab7">Call Back:</label>
+  </div>
+  <div class="col-md-9 form-group">
+    <div class="col-md-6">
+        <input type="text" class="form-control">
+    </div>
+  </div>
+
+
+  <div  class="col-md-3 form-group">
+  <label  style="color:#337ab7">Awareness:</label>
+  </div>
+    <div class="col-md-9 form-group">
+        <div class="col-md-6">
+            <select class="form-control">
+                <option>-- Select --</option>
+            </select>
+        </div>
+    </div>
+
+</form>
+</div>
+</div>
+
+
+
+

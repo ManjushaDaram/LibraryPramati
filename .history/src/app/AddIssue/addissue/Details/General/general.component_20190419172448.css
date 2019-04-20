@@ -1,0 +1,14 @@
+.page {
+  width: 900px;
+  padding: 1% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.ngb-datepicker-navigation-select>.custom-select {
+  font-size: 1.4rem !important;
+}
